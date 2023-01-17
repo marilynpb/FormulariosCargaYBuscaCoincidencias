@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <h1 class="titulo">Integrantes del grupo</h1>
+    <div class="container">
+        <div class="alumnos">
+        <form method="get" id="formulario">
+            <div id="div1">
+                <h1>Primer integrante</h1>
+                <input type="text" placeholder="*Primer nombre" id="nombre1-1" autocomplete="off">
+                <input type="text" placeholder="Segundo nombre" id="nombre1-2" autocomplete="off">
+                <input type="text" placeholder="*Primer apellido:" id="apellido1-1" autocomplete="off">
+                <input type="text" placeholder="Segundo apellido:" id="apellido1-2" autocomplete="off">
+                <button id="boton1" type="button" onclick="validar(1)">Completar</button>
+            </div>
+            <hr>
+            <div id="div2" class="deshabilitado">
+                <h1>Segundo integrante</h1>
+                <input type="text" placeholder="*Primer nombre" id="nombre2-1" autocomplete="off">
+                <input type="text" placeholder="Segundo nombre" id="nombre2-2" autocomplete="off">
+                <input type="text" placeholder="*Primer apellido:" id="apellido2-1" autocomplete="off">
+                <input type="text" placeholder="Segundo apellido:" id="apellido2-2" autocomplete="off">
+                <button id="boton2" class="button" type="button" onclick="validar(2)">Completar</button>
+            </div>
+            <hr>
+            <div id="div3" class="deshabilitado">
+                <h1>Tercer integrante</h1>
+                <input type="text" placeholder="*Primer nombre" id="nombre3-1" autocomplete="off"> 
+                <input type="text" placeholder="Segundo nombre" id="nombre3-2" autocomplete="off"> 
+                <input type="text" placeholder="*Primer apellido:" id="apellido3-1" autocomplete="off">
+                <input type="text" placeholder="Segundo apellido:" id="apellido3-2" autocomplete="off">
+                <button id="boton3" class="button" type="button" onclick="validar(3)">Completar</button>      
+            </div>   
+
+        </form>
+    </div>
+    </div>
+    <script src="./js/main.js" ></script>
+</body>
+</html>
